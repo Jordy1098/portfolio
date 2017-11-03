@@ -1,0 +1,177 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+/*Parallax*/
+.parallax {
+    background-image: url("WP_Tigris-2560x1440_00000.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweede {
+    background-image: url("WP_Lupus-2560x1440_00000.jpg");
+    height: 60%;
+}
+
+.derde {
+    background-image: url("WP_Leonine-2560x1440_00000.jpg");
+    height: 60%;
+}
+
+.vierde {
+    background-image: url("WP_Ursus-2560x1440_00000.jpg");
+    height: 60%;
+}
+
+.vijfde {
+    background-image: url("WP_Staggitarius-2560x1440_00000.jpg");
+}
+
+/*einde parallax*/
+.text {
+    height: auto;
+    background-color: #515151;
+    padding: 5%;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #515151;
+    padding: 3%;
+    font-size: 72px;
+    width: auto;
+    z-index: 3;
+}
+
+nav {
+    position: absolute;
+    background-color: #515151;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.fa {
+    position: fixed;
+    background-color: #9e9e9e;
+    bottom: 5%;
+    right: 2%;
+    text-align: center;
+    font-size: 30px !important;
+    padding: 10px;
+}
+
+.fa .fa-arrow-up {
+    color: #ffffff;
+}
+
+.begin {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#over-mij {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.over-mij-text {
+    flex: 1;
+}
+
+.formulier {
+    flex: 1;
+    text-align: left;
+    margin-left: 5%;
+}
+
+label, input {
+    margin-right: 30px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+input {
+    width: 30%;
+    margin-bottom: 1%;
+    color: #000;
+}
+
+#submit {
+    width: 20%;
+    color: #000;
+}
+
+h2 {
+    padding-bottom: 2%;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 3%;
+    padding: 7%;
+
+}
+
+/*gallerij*/
+.gallerij {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.titelgallerij {
+    width: 100%;
+}
+
+/*einde gallerij*/

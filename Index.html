@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+<nav id="menu">
+    <ul>
+        <li><a href="#over-mij">Over mij</a></li>
+        <li><a href="#periodes">Periode</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#gallerij">Gallerij</a></li>
+    </ul>
+</nav>
+<div class="parallax begin">
+    <h1 class="titel">Jordy Klouwens</h1>
+</div>
+<div id="over-mij" class="text">
+    <article class="over-mij-text">
+        <h2>Over mij</h2>
+        <p>Mijn naam is Jordy Klouwens, ben geboren op 10 november 1998 en studeer momenteel op het Technisch College
+            Rotterdam. Op deze website kunt u meer informatie vinden over mij en wat ik allemaal doe op school.</p>
+    </article>
+    <!--Formulieren stylen en afmaken-->
+
+    <form class="formulier" action="j.klouwens4@gmail.com" method="post" enctype="text/plain">
+        <p>Als u nog vragen heeft over mij dan kunt hier een bericht achterlaten</p>
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" id="voornaam" required>
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" id="achternaam" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="bericht" id="bericht">Bericht:<textarea required></textarea></label>
+        <input type="submit" value="submit" id="submit">
+    </form>
+</div>
+<div class="parallax tweede"></div>
+<div id="periodes" class="text">
+    <article>
+        <h2>Periodes</h2>
+        <h3>Periode 1</h3>
+        <p>In periode 1 heb ik de basis geleerd van html en css voornamelijk, ook hebben we geleerd hoe je een eigen
+            server kan starten en een database moeten maken. Van html en css hebben we geleerd over flexbox, parallax,
+            postion etc. Bij database hebben we geleerd over entiteiten, attributen en datatypes.</p>
+    </article>
+</div>
+<div class="parallax derde"></div>
+<div id="cv" class="text">
+    <h2>CV</h2>
+    <a href="CVJordy.doc.pdf" download="CVjordy">Download</a>
+</div>
+<div class="parallax vierde"></div>
+<div id="gallerij" class="gallerij text">
+    <h2 class="titelgallerij">Gallerij</h2>
+    <img src="IMG_2125.JPG" class="foto">
+    <img src="IMG_0222.JPG" class="foto">
+    <img src="IMG_2717.JPG" class="foto">
+    <img src="IMG_2137.JPG" class="foto draai">
+</div>
+<div class="parallax vijfde"></div>
+<a href="#menu"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+</body>
+<!--ctrl+/-->
+
